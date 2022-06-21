@@ -1,15 +1,14 @@
 import styled from 'styled-components'
-
+import { themes } from '../../theme/color';
 // import { themes } from '../theme/color'
 export const HeaderStyled = styled.div`
-
 display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5px 15px;
   height: 60px;
   width: 100%;
-  /* background: #fff; */
+  background: ${themes.light.colors.primary};
   position: fixed;
   top: 0;
   left: 0;
@@ -112,5 +111,14 @@ display: flex;
     font-weight: 500;
     display: none;
     align-items: center;
+  }
+
+  .toggleMenu {
+    transform: rotate(90deg)
+  }
+
+  .toggleMenu .toggleIcon{
+    color:#373848;
+    font-size:30px
   }
 `

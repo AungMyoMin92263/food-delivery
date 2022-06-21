@@ -36,7 +36,7 @@ const Header = () => {
         <h2 className="userName">Vetrivel Ravi</h2>
       </div>
 
-      <div className="toggleIcon">
+      <div className="toggleMenu">
         <BarChart className="toggleIcon" />
       </div>
     </HeaderStyled>

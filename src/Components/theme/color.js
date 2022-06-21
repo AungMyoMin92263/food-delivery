@@ -22,7 +22,7 @@ export const themes = {
       body: "#EFF3F3",
       scrollHandle: "#C1C1C1",
       scrollHandleHover: "#AAAAAA",
-      primary: "#027474",
+      primary: "#FFF",
       secondary: "#FF9D00",
       text: {
         100: "#334155",

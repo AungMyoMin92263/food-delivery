@@ -1,0 +1,35 @@
+.MenuContainer {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+
+.MenuContainer a {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+
+}
+.MenuContainer li.active a .icon {
+    transform: translateY(-26px)
+}
+
+.icon {
+    position: relative;
+    display: block;
+    line-height: 70px;
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+.MenuContainer a:hover .icon .MuiSvgIcon-root {
+    color:#f3f8f9
+}
+
+
